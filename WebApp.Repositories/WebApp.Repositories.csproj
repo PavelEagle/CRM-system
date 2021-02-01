@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>WbaApp.Repositories</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="10.1.1" />
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.2" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Abstraction\Abstraction.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Abstraction" />
+      <Folder Include="Migrations" />
+    </ItemGroup>
+
+</Project>

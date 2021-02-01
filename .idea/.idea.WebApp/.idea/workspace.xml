@@ -4,8 +4,49 @@
     <projectFile>WebApp/Server/WebApp.Server.csproj</projectFile>
     <projectFile>WebApp/Client/WebApp.Client.csproj</projectFile>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec45e01-2f91-4569-88e5-97c04c9e28d7" name="Default Changelist" comment="" />
+    <list default="true" id="7ec45e01-2f91-4569-88e5-97c04c9e28d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Abstraction/User/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DbSeeder/Infrastructure/DbContextExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService/Abstraction/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp.Repositories/Abstraction/User/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp.Repositories/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp.Repositories/DAL/User/DbUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp.Repositories/DAL/User/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp.Repositories/EntityConfiguration/UserConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp.Repositories/Infrastructure/MappingConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp.Repositories/Infrastructure/MappingProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp.Repositories/WebApp.Repositories.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Client/Pages/Audio.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Client/Pages/Image.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Server/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Client/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Client/Pages/Counter.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Client/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Client/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Server/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Server/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Server/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Server/WebApp.Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Server/WebApp.Server.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +55,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebApp.Repositories/Abstraction/User/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebApp/Server/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Client/Pages/Counter.razor" />
+        <option value="$PROJECT_DIR$/WebApp/Client/Pages/Audio.razor" />
+        <option value="$PROJECT_DIR$/WebApp/Client/Shared/NavMenu.razor" />
+        <option value="$PROJECT_DIR$/WebApp/Client/Pages/Image.razor" />
+        <option value="$PROJECT_DIR$/DbSeeder/Class1.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/Class1.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/Context/DbContext.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/Context/WebAppDbContext.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/Infrastructure/MappingConfiguration.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/Infrastructure/MappingProfile.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/DAL/User/User.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/EntityConfiguration/UserConfiguration.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/Context/AppDbContext.cs" />
+        <option value="$PROJECT_DIR$/UserService/Class1.cs" />
+        <option value="$PROJECT_DIR$/UserService/Model/User.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/Abstraction/User/IUserService.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/BaseRepository.cs" />
+        <option value="$PROJECT_DIR$/Abstraction/Class1.cs" />
+        <option value="$PROJECT_DIR$/UserService/Model/Use22.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/Abstraction/User/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/DAL/User/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/Abstraction/User/User.cs" />
+        <option value="$PROJECT_DIR$/UserService/UserService.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Server/Controllers/UserCOntroller.cs" />
+        <option value="$PROJECT_DIR$/UserService/Abstraction/IUserService.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Server/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/DbSeeder/DbSeeder.cs" />
+        <option value="$PROJECT_DIR$/DbSeeder/Infrastructure/DbContextExtensions.cs" />
+        <option value="$PROJECT_DIR$/WbaApp.Repositories/AppDbContext.cs" />
+        <option value="$PROJECT_DIR$/WebApp.Repositories/AppDbContext.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Server/Controllers/WeatherForecastController.cs" />
+        <option value="$PROJECT_DIR$/WebApp.Repositories/DAL/User/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Server/Program.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1npoQxP7ZAnc411QuMqhPcTvi0A" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,7 +109,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApp.Client: WebApp">
@@ -96,7 +185,9 @@
       <option name="presentableId" value="Default" />
       <updated>1612096383534</updated>
       <workItem from="1612096389246" duration="281000" />
-      <workItem from="1612096708562" duration="69000" />
+      <workItem from="1612096708562" duration="3257000" />
+      <workItem from="1612207588593" duration="6973000" />
+      <workItem from="1612214941989" duration="1612000" />
     </task>
     <servers />
   </component>
@@ -105,29 +196,57 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1612096568202">
+    <state x="707" y="385" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1612096872336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612096568202" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1612096568202">
+    <state x="707" y="385" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1920.1040@0.0.1920.1040" timestamp="1612096872336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1612130343382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612096568202" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1612096568202">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612130343382" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1612130343382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612096568202" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1612096568202">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612130343382" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1612130343382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612096568202" />
-    <state x="474" y="180" width="998" height="725" key="SettingsEditor" timestamp="1612096776664">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612130343382" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1612130343382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="474" y="180" width="998" height="725" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612096776664" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612130343382" />
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1612215674115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1612215674115" />
+    <state x="205" y="89" width="1706" height="725" key="SettingsEditor" timestamp="1612097206967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="205" y="89" width="1706" height="725" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612097206967" />
+    <state x="640" y="279" key="WebReferenceSession.Dialog" timestamp="1612215013329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="279" key="WebReferenceSession.Dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612215013329" />
+    <state x="638" y="119" width="644" height="801" key="find.popup" timestamp="1612101808480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="638" y="119" width="644" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612101808480" />
   </component>
 </project>

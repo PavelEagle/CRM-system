@@ -6,6 +6,8 @@
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
+<button class="btn btn-primary" @onclick="TestMessage">Test Message</button>
+
 @code {
     private int currentCount;
 
@@ -14,4 +16,8 @@
         currentCount++;
     }
 
+    private static void TestMessage()
+    {
+        Console.WriteLine("Hello!");
+    }
 }

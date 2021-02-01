@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using WebApp.Shared;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WebApp.Shared;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace WebApp.Server.Controllers
 {
@@ -11,7 +11,7 @@ namespace WebApp.Server.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries =
+        private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
