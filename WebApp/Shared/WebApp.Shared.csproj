@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <SupportedPlatform Include="browser" />
+    <SupportedPlatform Remove="Android" />
+    <SupportedPlatform Remove="iOS" />
+    <SupportedPlatform Remove="Linux" />
+    <SupportedPlatform Remove="macOS" />
+    <SupportedPlatform Remove="Windows" />
   </ItemGroup>
 </Project>

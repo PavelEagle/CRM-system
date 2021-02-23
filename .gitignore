@@ -7,6 +7,11 @@
 *.userosscache
 *.sln.docstates
 
+# IntellijIdea files
+*.iml
+.idea
+out
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

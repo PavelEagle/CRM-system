@@ -1,15 +1,19 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WbaApp.Repositories;
 
 namespace WebApp.Server
 {
     public class Startup
     {
+        private readonly IConfiguration _configuration;
         public Startup(IConfiguration configuration)
         {
+            _configuration = configuration;
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -18,6 +22,10 @@ namespace WebApp.Server
         {
             services.AddControllersWithViews();
             services.AddRazorPages();
+            
+            var dbConnectionString = _configuration.GetConnectionString("SqlConnectionString");
+            services.AddDbContext<AppDbContext>(o =>
+                o.UseSqlServer(dbConnectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

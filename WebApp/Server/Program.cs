@@ -5,6 +5,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using WbaApp.Repositories;
 
 namespace WebApp.Server
@@ -13,18 +14,13 @@ namespace WebApp.Server
     {
         public static async Task Main(string[] args)
         {
-            var configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
-                .Build();
-
             try
             {
                 var host = CreateWebHost(args);
                 using (var scope = host.Services.CreateScope())
                 {
-                    var myKycDbContext = scope.ServiceProvider.GetService<AppDbContext>();
-                    await new DbSeeder.DbSeeder(myKycDbContext).MigrateAndSeedAsync();
+                    var dbContext = scope.ServiceProvider.GetService<AppDbContext>();
+                    await new DbSeeder.DbSeeder(dbContext).MigrateAndSeedAsync();
                 }
 
                 await host.RunAsync();
@@ -39,10 +35,6 @@ namespace WebApp.Server
         private static IWebHost CreateWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseDefaultServiceProvider((context, options) =>
-                {
-                    options.ValidateOnBuild = true;
-                })
-                .Build();
+                .UseDefaultServiceProvider((context, options) => { options.ValidateOnBuild = true; }).Build();
     }
 }
