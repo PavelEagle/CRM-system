@@ -10,11 +10,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\DbSeeder\DbSeeder.csproj" />
-    <ProjectReference Include="..\..\UserService\UserService.csproj" />
+    <ProjectReference Include="..\..\FileData.Service\FileData.Service.csproj" />
+    <ProjectReference Include="..\..\User.Service\User.Service.csproj" />
     <ProjectReference Include="..\Client\WebApp.Client.csproj" />
     <ProjectReference Include="..\Shared\WebApp.Shared.csproj" />
   </ItemGroup>

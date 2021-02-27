@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WbaApp.Repositories;
+using WebApp.Server.Infrastructure.Extensions;
 
 namespace WebApp.Server
 {
@@ -22,6 +23,10 @@ namespace WebApp.Server
         {
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.ConfigureCustomRepositories();
+            services.ConfigureCustomServices();
+            
             
             var dbConnectionString = _configuration.GetConnectionString("SqlConnectionString");
             services.AddDbContext<AppDbContext>(o =>

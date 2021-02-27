@@ -17,9 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Repositories", "WebA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WabApp.Services", "WabApp.Services", "{002144F1-32D7-451C-B34E-F4544ACD7E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{D58777B1-AE75-4C27-9A8B-47C74B687454}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Service", "User.Service\User.Service.csproj", "{D58777B1-AE75-4C27-9A8B-47C74B687454}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{155083A7-8D8F-4A51-946F-8F2EAA4815CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData.Service", "FileData.Service\FileData.Service.csproj", "{9D9FCA59-CE87-48DB-A50D-E5BAA39C4B79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{155083A7-8D8F-4A51-946F-8F2EAA4815CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{155083A7-8D8F-4A51-946F-8F2EAA4815CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{155083A7-8D8F-4A51-946F-8F2EAA4815CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9FCA59-CE87-48DB-A50D-E5BAA39C4B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9FCA59-CE87-48DB-A50D-E5BAA39C4B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9FCA59-CE87-48DB-A50D-E5BAA39C4B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9FCA59-CE87-48DB-A50D-E5BAA39C4B79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,5 +71,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{250E016C-2D31-42E9-A5B7-93EB9F0E33B8} = {8CB007A7-C53E-481E-B549-069A5CCFD3E0}
 		{D58777B1-AE75-4C27-9A8B-47C74B687454} = {002144F1-32D7-451C-B34E-F4544ACD7E0E}
+		{9D9FCA59-CE87-48DB-A50D-E5BAA39C4B79} = {002144F1-32D7-451C-B34E-F4544ACD7E0E}
 	EndGlobalSection
 EndGlobal

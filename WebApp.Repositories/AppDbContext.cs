@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WbaApp.Repositories.DAL.FileData;
 using WbaApp.Repositories.DAL.User;
 using WbaApp.Repositories.EntityConfiguration;
 
@@ -22,11 +23,12 @@ namespace WbaApp.Repositories
         
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.ApplyConfiguration(new UserConfiguration());
+            builder.ApplyConfigurationsFromAssembly(typeof(UserConfiguration).Assembly);
 
             base.OnModelCreating(builder);
         }
         
         public DbSet<DbUser> Leads { get; set; }
+        public DbSet<DbImageData> Images { get; set; }
     }
 }

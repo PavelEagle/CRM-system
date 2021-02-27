@@ -1,8 +1,16 @@
 ﻿@page "/Image"
-<h3>Image</h3>
+@using FileDataService.Abstraction
+@inject IFileDataService FileDataService
 
-<img src="test.jpg" asp-append-version="true" width="300px" />
+<h3>Upload PNG images</h3>
+
+<p>
+    <InputFile OnChange="@OnInputFileChange" multiple />
+</p>
 
 @code {
-
+    private async Task OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        await FileDataService.SaveImageAsync(e.File.OpenReadStream(), e.File.ContentType);
+    }
 }
